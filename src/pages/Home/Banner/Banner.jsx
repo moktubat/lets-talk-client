@@ -7,7 +7,7 @@ const Banner = () => {
     <div
       className="bg-blend-overlay"
       style={{
-        backgroundImage: "linear-gradient(to left, #a8edea 0%, #fed6e3 100%)",
+        backgroundImage: "linear-gradient(to top, #a8edea 0%, #fed6e3 100%)",
       }}
     >
       <div>
@@ -30,7 +30,7 @@ const Banner = () => {
                 </p>
 
                 <div className="mt-6 flex flex-col sm:flex-row items-center">
-                  <a href="#buttons-with-link"
+                  <a href="signIn"
                   >
                     <Button className="text-black font-extrabold border-2 border-[#917FB3] hover:bg-[#F8E8EE]" variant="outlined">Get Standard</Button>
                   </a>

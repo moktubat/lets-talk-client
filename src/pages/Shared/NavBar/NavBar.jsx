@@ -24,7 +24,7 @@ const NavBar = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="signIn" className="flex items-center">
           SignIn
         </a>
       </Typography>
