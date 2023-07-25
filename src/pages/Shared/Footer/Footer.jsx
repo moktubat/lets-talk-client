@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="bg-[#a8edea]">
       <section>
         <div className="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
-          <img className="mx-auto" src={logo} alt="" />
+          <img className="mx-auto md:w-[35%] w-[65%]" src={logo} alt="" />
           <nav className="flex flex-wrap justify-center -mx-5 -my-2">
             <div className="px-5 py-2">
               <a

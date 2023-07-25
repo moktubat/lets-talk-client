@@ -9,11 +9,11 @@ const SignIn = () => {
             backgroundImage: "linear-gradient(to top, #a8edea 0%, #fed6e3 100%)",
           }}
         >
-          <div className="lg:w-1/2 xl:w-5/12 p-6 sm:p-12">
+          <div className="lg:w-1/2 xl:w-5/12 p-6 sm:p-8">
             <div>
-              <img src={logo} className="w-mx-auto" />
+              <img src={logo} className="mx-auto md:w-[65%] w-[35%]" />
             </div>
-            <div className="mt-12 flex flex-col items-center">
+            <div className="md:mt-12 flex flex-col items-center">
               <div className="w-full flex-1 mt-8">
                 <div className="flex flex-col items-center">
                   <button className="w-full max-w-xs font-bold shadow-sm rounded-lg py-3 bg-[#a8edea] text-gray-800 flex items-center justify-center transition-all duration-300 ease-in-out focus:outline-none hover:shadow focus:shadow-sm focus:shadow-outline">
@@ -41,7 +41,7 @@ const SignIn = () => {
                   </button>
                 </div>
 
-                <div className="my-10 border-b-2 pb-2 text-center">
+                <div className="my-6 md:my-10 border-b-2 pb-2 text-center">
                   <div className="leading-none px-2 inline-block text-sm text-gray-800 tracking-wide font-medium transform translate-y-1/2">
                     Or sign In with E-mail
                   </div>

@@ -5,7 +5,7 @@ import {
   Typography,
   IconButton,
 } from "@material-tailwind/react";
-
+import logo from '../../../assets/logo.webp'
 const NavBar = () => {
   const [openNav, setOpenNav] = React.useState(false);
 
@@ -49,7 +49,7 @@ const NavBar = () => {
             href="/"
             className="mr-4 cursor-pointer py-1.5 font-medium"
           >
-            Let&apos;s Talk
+            <img className="w-[180px]" src={logo} alt="Let&apos;s Talk" />
           </Typography>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>

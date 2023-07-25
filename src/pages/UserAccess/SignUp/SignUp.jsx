@@ -2,21 +2,22 @@ import logo from "../../../assets/logo.webp";
 const SignUp = () => {
   return (
     <div>
-      <div className="min-h-screen text-gray-900 flex justify-center bg-red-200">
-
-        <div className="max-w-screen-xl m-0 sm:m-10 bg-white shadow sm:rounded-lg flex justify-center flex-1"
-        style={{
-            backgroundImage: "linear-gradient(to top, #a8edea 0%, #fed6e3 100%)",
+      <div className="min-h-screen text-gray-900 flex flex-col md:flex-row justify-center bg-red-200">
+        <div
+          className="max-w-screen-xl m-0 md:m-10 bg-white shadow md:rounded-lg flex justify-center flex-1"
+          style={{
+            backgroundImage:
+              "linear-gradient(to bottom, #a8edea 0%, #fed6e3 100%)",
           }}
         >
-          <div className="lg:w-1/2 xl:w-5/12 p-6 sm:p-12">
+          <div className="lg:w-1/2 xl:w-5/12 p-6 sm:p-8">
             <div>
-              <img src={logo} className="w-mx-auto" />
+              <img src={logo} className="mx-auto md:w-[65%] w-[35%]" />
             </div>
-            <div className="mt-12 flex flex-col items-center">
+            <div className="md:mt-12 flex flex-col items-center">
               <div className="w-full flex-1 mt-8">
                 <div className="flex flex-col items-center">
-                  <button className="w-full max-w-xs font-bold shadow-sm rounded-lg py-3 bg-[#a8edea] text-gray-800 flex items-center justify-center transition-all duration-300 ease-in-out focus:outline-none hover:shadow focus:shadow-sm focus:shadow-outline">
+                  <button className="w-full max-w-xs font-bold shadow-sm rounded-lg py-3 bg-[#df9db2] text-gray-800 flex items-center justify-center transition-all duration-300 ease-in-out focus:outline-none hover:shadow focus:shadow-sm focus:shadow-outline">
                     <div className="bg-white p-2 rounded-full">
                       <svg className="w-4" viewBox="0 0 533.5 544.3">
                         <path
@@ -41,7 +42,7 @@ const SignUp = () => {
                   </button>
                 </div>
 
-                <div className="my-10 border-b-2 pb-2 text-center">
+                <div className="my-6 md:my-10 border-b-2 pb-2 text-center">
                   <div className="leading-none px-2 inline-block text-sm text-gray-800 tracking-wide font-medium transform translate-y-1/2">
                     Or sign In with E-mail
                   </div>
@@ -58,7 +59,7 @@ const SignUp = () => {
                     type="password"
                     placeholder="Password"
                   />
-                  <button className="mt-5 tracking-wide font-semibold bg-[#71c5c1] text-white-500 w-full py-4 rounded-lg hover:bg-[#428884] transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
+                  <button className="mt-5 tracking-wide font-semibold bg-[#c5718b] text-white-500 w-full py-4 rounded-lg hover:bg-[#863750] transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
                     <svg
                       className="w-6 h-6 -ml-2"
                       fill="none"
@@ -93,8 +94,8 @@ const SignUp = () => {
               </div>
             </div>
           </div>
-          <div className="flex-1 bg-[#fed6e3] text-center hidden lg:flex rounded-lg">
-            <div className="m-12 xl:m-16 w-full bg-contain bg-center bg-no-repeat bg-[url('https://i.ibb.co/zSGZyJc/signUp.webp')]"></div>
+          <div className="flex-1 bg-[#a8edea] text-center hidden lg:flex rounded-lg">
+            <div className="m-12 xl:m-16 w-full bg-contain bg-center bg-no-repeat bg-[url('https://i.ibb.co/zSGZyJc/SignUp.webp')]"></div>
           </div>
         </div>
       </div>
