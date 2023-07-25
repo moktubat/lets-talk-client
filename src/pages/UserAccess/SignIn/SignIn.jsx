@@ -1,5 +1,5 @@
 import logo from "../../../assets/logo.webp";
-const SignUp = () => {
+const SignIn = () => {
   return (
     <div>
       <div className="min-h-screen text-gray-900 flex justify-center bg-red-200">
@@ -94,7 +94,7 @@ const SignUp = () => {
             </div>
           </div>
           <div className="flex-1 bg-[#fed6e3] text-center hidden lg:flex rounded-lg">
-            <div className="m-12 xl:m-16 w-full bg-contain bg-center bg-no-repeat bg-[url('https://i.ibb.co/zSGZyJc/signUp.webp')]"></div>
+            <div className="m-12 xl:m-16 w-full bg-contain bg-center bg-no-repeat bg-[url('https://i.ibb.co/zSGZyJc/SignUp.webp')]"></div>
           </div>
         </div>
       </div>
@@ -102,4 +102,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default SignIn;
