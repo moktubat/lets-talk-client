@@ -2,7 +2,7 @@ import logo from "../../../assets/logo.webp";
 const SignUp = () => {
   return (
     <div>
-      <div className="min-h-screen text-gray-900 flex flex-col md:flex-row justify-center bg-red-200">
+      <div className="min-h-screen text-gray-900 flex flex-col md:flex-row justify-center bg-teal-200">
         <div
           className="max-w-screen-xl m-0 md:m-10 bg-white shadow md:rounded-lg flex justify-center flex-1"
           style={{
@@ -10,6 +10,9 @@ const SignUp = () => {
               "linear-gradient(to bottom, #a8edea 0%, #fed6e3 100%)",
           }}
         >
+            <div className="flex-1 bg-[#a8edea] text-center hidden lg:flex rounded-lg">
+            <div className="m-12 xl:m-16 w-full bg-contain bg-center bg-no-repeat bg-[url('https://i.ibb.co/zSGZyJc/SignUp.webp')]"></div>
+          </div>
           <div className="lg:w-1/2 xl:w-5/12 p-6 sm:p-8">
             <div>
               <img src={logo} className="mx-auto md:w-[65%] w-[35%]" />
@@ -94,9 +97,7 @@ const SignUp = () => {
               </div>
             </div>
           </div>
-          <div className="flex-1 bg-[#a8edea] text-center hidden lg:flex rounded-lg">
-            <div className="m-12 xl:m-16 w-full bg-contain bg-center bg-no-repeat bg-[url('https://i.ibb.co/zSGZyJc/SignUp.webp')]"></div>
-          </div>
+          
         </div>
       </div>
     </div>

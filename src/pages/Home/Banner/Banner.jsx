@@ -15,7 +15,7 @@ const Banner = () => {
           <div className="pt-6 sm:pt-12 lg:pt-24 w-full flex flex-col lg:flex-row">
             <div className="w-full lg:w-1/2 flex flex-col justify-center items-center">
               <div className="p-5 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
-                <h1 className="py-5 text-2xl sm:text-5xl font-bold tracking-wide">
+              <h1 className="py-5 text-2xl sm:text-5xl font-bold tracking-wide" style={{ backgroundImage: "linear-gradient(to right, #BC5B80, #E0636B)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
                   Talk, laugh, and have fun!
                 </h1>
                 <h3 className="pb-2 text-sm md:text-lg font-semibold tracking-wide">
